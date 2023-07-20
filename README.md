@@ -4,15 +4,15 @@ This repository contains three shell script files for automating the installatio
 
 1. **aws-cli.sh**  ⚙️
 
-   This script facilitates the installation of the AWS Command Line Interface (CLI) on your system. The AWS CLI is a powerful tool for interacting with AWS services through the command line. The script installs the AWS CLI using the package manager and configures it with your AWS Access Key ID, Secret Access Key, and default region. 
+   Install AWS-CLI for access aws with command line on linux.
 
 2. **docker-install.sh**  🐳
 
-   The `docker-install.sh` script automates the installation of Docker on your system. Docker is a widely-used platform that allows you to build, deploy, and manage containerized applications. The script fetches the official Docker installation script, executes it, adds your current user to the Docker group for non-root usage, and installs Docker Compose as well. 
+   Install Docker with Docker-compose on linux.
 
 3. **termius-install.sh**  🌐
 
-   This script simplifies the installation of the Termius software, a powerful SSH client. Termius offers various features to manage SSH connections, making it an excellent tool for remote server management. The script downloads the Termius deb package, installs it using `dpkg`, and handles any missing dependencies with `apt-get`.
+   SSH software for use multi-server connection with sftp & snippets.
 
 **Usage:** 🛠️
 
@@ -21,24 +21,14 @@ This repository contains three shell script files for automating the installatio
 2. Make the script files executable: 🔒
 
    ```bash
-   chmod +x aws-cli.sh docker-install.sh termius-install.sh
+   chmod +x *.sh
    ```
 
 3. Execute the desired script with administrative privileges (sudo) to perform the installation:
 
    - To install AWS CLI:
      ```
-     sudo ./aws-cli.sh
-     ```
-
-   - To install Docker and Docker Compose:
-     ```
-     sudo ./docker-install.sh
-     ```
-
-   - To install Termius software for SSH:
-     ```
-     sudo ./termius-install.sh
+     sudo ./*.sh
      ```
 
 **Note:** 📌
