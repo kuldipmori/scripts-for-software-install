@@ -10,15 +10,15 @@ def display_notification(title, message):
 
 # Example usage
 notification_title = "Keka & Wazir Task"
-notification_message = "⚠️ Hello, Kuldip! Please work task. ⚠️"
+notification_message = "⚠️ Hello, Please check work task. ⚠️"
 
 water_notification_title = "Water Reminder"
-water_notification_message = "🚰   Time to drink water! Stay hydrated. 🚰"
+water_notification_message = "🚰 Time to drink water! Stay hydrated. 🚰"
 
 movement_notification_title = "Movement Reminder"
-movement_notification_message = "🏃   Take a break and stretch your legs! Move around for a while. 🏃"
+movement_notification_message = "🏃 Take a break and stretch your legs! Move around for a while. 🏃"
 
-notification_interval = 1800
+notification_interval = 1800 # In secend
 
 start_time = time.time()
 
@@ -32,4 +32,4 @@ while True:
         display_notification(movement_notification_title, movement_notification_message)
         start_time = current_time  # Reset the start time
 
-    time.sleep(1800)  # Delay for 10 seconds
+    time.sleep(1800)  # Delay in seconds
