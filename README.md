@@ -1,34 +1,60 @@
 **README - Shell Script Files**  📝
 
-This repository contains three shell script files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, and Termius software with ease. Below is a brief description of each script: 🚀
+This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, and Termius software with ease. Below is a brief description of each script: 🚀
 
-1. **aws-cli.sh**  ⚙️
+├── shell
 
-   Install AWS-CLI for access aws with command line on linux.
+``aws-cli.sh``  
+- Install AWS-CLI for access aws with command line on linux.
 
-2. **docker-install.sh**  🐳
+``docker-install.sh``  
+- Install Docker with Docker-compose on linux.
 
-   Install Docker with Docker-compose on linux.
+``termius-install.sh``  
+- SSH software for use multi-server connection with sftp & snippets.
 
-3. **termius-install.sh**  🌐
+``get-dir-file-permission.sh`` 
+- A script to recursively store directory and file permissions and ownership details in a .txt file.
 
-   SSH software for use multi-server connection with sftp & snippets.
+├── python
 
-**Usage:** 🛠️
+``reminder.py``
+- A script that displays pop-up reminders for scheduled tasks.
+
+``smtp-tester.py``
+- A script to test AWS SES Cred. SMTP functionality local computer.
+
+**Usage Shell:** 🛠️
 
 1. Clone this repository or download the individual shell script files to your system.
 
-2. Make the script files executable: 🔒
+2. Make the script files executable: 
 
-   ```bash
+   ```
    chmod +x *.sh
    ```
 
 3. Execute the desired script with administrative privileges (sudo) to perform the installation:
 
-   - To install AWS CLI:
+   To install AWS CLI:
      ```
      sudo ./*.sh
+     ```
+**Usage Python** 🛠️
+
+1. Clone this repository or download the individual python script files to your system.
+
+2. Make the script files executable:
+
+   ```
+   chmod +x *.py
+   ```
+
+3. Execute the desired Python script with administrative privileges (sudo) to perform the installation:
+
+   To Run Python:
+     ```
+     sudo ./*.py
      ```
 
 **Note:** 📌
