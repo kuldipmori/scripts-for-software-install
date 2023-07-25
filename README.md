@@ -1,6 +1,6 @@
 **README - Script Files**  📝
 
-This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, and Termius software with ease. Below is a brief description of each script: 🚀
+This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, and Termius software. Below is a brief description of each script: 🚀
 
 ## shell
 
