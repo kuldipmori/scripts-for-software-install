@@ -2,7 +2,7 @@
 
 This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, and Termius software with ease. Below is a brief description of each script: 🚀
 
-├── shell
+## shell
 
 ``aws-cli.sh``  
 - Install AWS-CLI for access aws with command line on linux.
@@ -16,7 +16,7 @@ This repository contains three shell-script & Python files for automating the in
 ``get-dir-file-permission.sh`` 
 - A script to recursively store directory and file permissions and ownership details in a .txt file.
 
-├── python
+## python
 
 ``reminder.py``
 - A script that displays pop-up reminders for scheduled tasks.
