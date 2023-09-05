@@ -1,6 +1,6 @@
 **README - Script Files**  📝
 
-This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, and Termius software. Below is a brief description of each script: 🚀
+This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, HashiCorp-Vagran and Termius software. Below is a brief description of each script: 🚀
 
 ## shell
 
@@ -16,13 +16,18 @@ This repository contains three shell-script & Python files for automating the in
 ``get-dir-file-permission.sh`` 
 - A script to recursively store directory and file permissions and ownership details in a .txt file.
 
+``vagrant-install.sh``
+- A script for installation of HashiCorp Vagrant on Ubuntu.
+
 ## python
 
 ``reminder.py``
 - A script that displays pop-up reminders for scheduled tasks.
 
 ``smtp-tester.py``
-- A script to test AWS SES Cred. SMTP functionality local computer.
+- A script to test AWS-SES Cred. or Any SMTP functionality local computer.
+
+----------------------------------------------------------
 
 **Usage Shell:** 🛠️
 
