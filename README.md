@@ -19,6 +19,9 @@ This repository contains three shell-script & Python files for automating the in
 ``vagrant-install.sh``
 - A script for installation of HashiCorp Vagrant on Ubuntu.
 
+``ansible-install.sh``
+- A script for installation of Ansible on Ubuntu
+
 ## python
 
 ``reminder.py``
