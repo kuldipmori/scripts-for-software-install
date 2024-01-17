@@ -1,34 +1,26 @@
 **README - Script Files**  📝
 
-This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, HashiCorp-Vagran and Termius software. Below is a brief description of each script: 🚀
+This repository contains three shell-script & Python files for automating the installation of various tools on your system. The scripts aim to simplify the installation process, allowing you to set up AWS CLI, Docker, HashiCorp-Vagrant and Termius software. Below is a brief description of each script: 🚀
 
 ## shell
 
-``aws-cli.sh``  
-- Install AWS-CLI for access aws with command line on linux.
+| Script Name                  | Description                                               |
+| ---------------------------- | --------------------------------------------------------- |
+| `ansible-install.sh`         | A script for installation of Ansible on Ubuntu.           |
+| `aws-cli.sh`                 | Install AWS-CLI for accessing AWS through the command line on Linux. |
+| `docker-install.sh`          | Install Docker with Docker-compose on Linux.              |
+| `get-dir-file-permission.sh` | A script to recursively store directory and file permissions and ownership details in a .txt file. |
+| `termius-install.sh`         | SSH software for multi-server connection with SFTP & snippets. |
+| `vagrant-install.sh`         | A script for installation of HashiCorp Vagrant on Ubuntu.  |
 
-``docker-install.sh``  
-- Install Docker with Docker-compose on linux.
-
-``termius-install.sh``  
-- SSH software for use multi-server connection with sftp & snippets.
-
-``get-dir-file-permission.sh`` 
-- A script to recursively store directory and file permissions and ownership details in a .txt file.
-
-``vagrant-install.sh``
-- A script for installation of HashiCorp Vagrant on Ubuntu.
-
-``ansible-install.sh``
-- A script for installation of Ansible on Ubuntu
 
 ## python
 
-``reminder.py``
-- A script that displays pop-up reminders for scheduled tasks.
+| Script Name           | Description                                                  |
+| ----------------------| ------------------------------------------------------------ |
+| `reminder.py`         | A script that displays pop-up reminders for scheduled tasks. |
+| `smtp-tester.py`      | A script to test AWS-SES Cred. or Any SMTP functionality on the local computer. |
 
-``smtp-tester.py``
-- A script to test AWS-SES Cred. or Any SMTP functionality local computer.
 
 ----------------------------------------------------------
 
@@ -70,7 +62,7 @@ This repository contains three shell-script & Python files for automating the in
 - Ensure you have administrative privileges to run the scripts (using `sudo`).
 - Review the scripts' content to understand what they do before executing them on your system.
 - The scripts were designed for Ubuntu or Debian-based systems. Before running them on other distributions, verify compatibility and adjust the package manager commands if needed.
-- In case of any issues, consult the official documentation or respective websites for AWS CLI, Docker, and Termius for further troubleshooting.
+- In case of any issues, consult the official documentation or respective websites for AWS CLI, Docker, and termius for further troubleshooting.
 
 **Warning:** ⚠️
 
