@@ -64,6 +64,18 @@ This repository contains three shell-script & Python files for automating the in
 - The scripts were designed for Ubuntu or Debian-based systems. Before running them on other distributions, verify compatibility and adjust the package manager commands if needed.
 - In case of any issues, consult the official documentation or respective websites for AWS CLI, Docker, and termius for further troubleshooting.
 
-**Warning:** ⚠️
+## Contributing
+
+We welcome contributions from the community! If you have a script you'd like to add or improve, follow these basic steps:
+
+1. Fork the main repository.
+2. Create a new branch: `git checkout -b feature/new-script`.
+3. Add your script to the repository.
+4. Manage README.md file with script details table and formate. 
+5. Commit your changes: `git commit -m "Add: Your new script"`.
+6. Push to the branch: `git push origin feature/new-script`.
+7. Create a pull request.
+
+⚠️ **Warning:** ⚠️
 
 Use these scripts at your own risk. While efforts have been made to ensure their correctness, the author shall not be responsible for any damages or issues arising from the use of these scripts. It is always recommended to review the scripts and understand their actions before running them on your system.
