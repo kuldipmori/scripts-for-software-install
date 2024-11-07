@@ -10,6 +10,7 @@ This repository contains three shell-script & Python files for automating the in
 | `aws-cli.sh`                 | Install AWS-CLI for accessing AWS through the command line on Linux. |
 | `docker-install.sh`          | Install Docker with Docker-compose on Linux.              |
 | `get-dir-file-permission.sh` | A script to recursively store directory and file permissions and ownership details in a .txt file. |
+| `nexus_repo_3.74.0-05.sh`    | This script automates the installation and configuration of Nexus Repository Manager with OpenJDK 11, including setting up a systemd service for Nexus. |
 | `termius-install.sh`         | SSH software for multi-server connection with SFTP & snippets. |
 | `vagrant-install.sh`         | A script for installation of HashiCorp Vagrant on Ubuntu.  |
 
